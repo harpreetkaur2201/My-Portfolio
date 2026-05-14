@@ -4,8 +4,7 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 
 ---
 
-##  Live Demo
-🔗 https://harpreetkaur2201.github.io/My-Portfolio/
+##  Live Demo [welcome](https://github.com/harpreetkaur2201/My-Portfolio.git)
 
 ## 📌 About the Project
 
