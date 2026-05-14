@@ -1,7 +1,6 @@
 'use strict';
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Smooth scrolling for nav links
   document.querySelectorAll('nav a').forEach(link => {
     link.addEventListener('click', function (e) {
       e.preventDefault();
@@ -14,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Scroll animations
   const sections = document.querySelectorAll("section:not(#hero)");
   sections.forEach(sec => {
     sec.style.opacity = 0;
@@ -35,7 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("scroll", reveal);
   window.addEventListener("load", reveal);
 
-  // HAMBURGER MENU - THIS IS THE KEY PART
   const toggle = document.getElementById("menu-toggle");
   const navLinks = document.getElementById("nav-links");
 
