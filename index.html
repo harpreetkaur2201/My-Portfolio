@@ -1,57 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="./style/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harpreet Kaur Portfolio</title>
+
+  <link rel="stylesheet" href="./style/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
+
 <body>
-    <main>
-        <header>
-            <nav aria-label="Main Navigation">
-                <div class="logo">Harpreet Kaur</div>
-                <ul>
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
 
-       <section id="hero">
-            <h1 class="hello">Hello World</h1>
-            <h1> I am Harpreet Kaur</h1>
-            <h2>A Web Developer | HTML, CSS, JavaScript & React Learner</h2>
-            <p>Turning ideas into interactive websites, building clean code with creativity and precision, and constantly learning to bring designs to life.</p>
-            <a href="#about" class="btn">Learn More</a>
-        </section>
+  <!-- NAVIGATION -->
+  <header>
+    <nav>
+      <div class="logo">Harpreet Kaur</div>
+       <div class="menu-toggle" id="menu-toggle">
+    <i class="fa-solid fa-bars"></i>
+  </div>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <div class="about-content">
-            <img src="./images/Profile pic.jpg" alt="Harpreet Kaur">
-            <div>
-                <p>Hello! I'm Harpreet Kaur, a Web Developer who loves turning ideas into clean, interactive websites using JavaScript and React. I enjoy blending design and functionality to create experiences that are both beautiful and intuitive.</p>
-                <p>When I'm not coding, you'll find me exploring new tech trends, experimenting with side projects, and finding inspiration in everyday life. Let's create something amazing together!</p>
+
+      <ul id="nav-links">
+
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Highlights</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main>
+
+    <section id="hero">
+      <div class="hero-content">
+
+        <div class="hero-text">
+
+          <p class="tag">
+            Hello there <i class="fa-solid fa-hand-sparkles"></i>
+          </p>
+
+          <h1>I'm Harpreet Kaur</h1>
+          <h2>Full-Stack Developer</h2>
+
+          <p>
+            Software Development student focused on building modern, responsive, and scalable web applications using ASP.NET, React, and JavaScript.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn secondary">Contact Me</a>
+          </div>
+
+        </div>
+
+        <div class="hero-image">
+          <div class="image-wrapper">
+
+            <img src="./images/Profile pic.jpg" alt="profile" />
+
+            <div class="floating-card card-1">
+              <i class="fa-solid fa-graduation-cap"></i>
+              Software Developer Student
             </div>
+
+            <div class="floating-card card-2">
+              <i class="fa-solid fa-laptop-code"></i>
+              ASP.NET + React
             </div>
-        </section>
 
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Email: <a href="mailto:harpreet@example.com">harpreet@example.com</a></p>
-            <p>GitHub: <a href="https://github.com/harpreetkaur2201" target="_blank" rel="noopener">github.com/harpreetkaur2201</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/harpreetkaur" target="_blank" rel="noopener">linkedin.com/in/harpreetkaur</a></p>
-        </section>
+          </div>
+        </div>
 
-        <footer>
-            <p>© 2025 Harpreet Kaur</p>
-        </footer>
+      </div>
+    </section>
 
-        <script src="./script/script.js"></script>
-    </main>
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About Me</h2>
+
+      <p>
+        I am currently studying Software Development and building strong skills in full-stack development.
+      </p>
+
+      <p>
+        So far, I have learned HTML, CSS, JavaScript, C#, SQL, and React fundamentals. I have also worked with ASP.NET MVC for database-driven applications.
+      </p>
+
+      <p>
+        My focus is improving problem-solving, object-oriented programming, and real-world development workflow through continuous projects.
+      </p>
+    </section>
+
+<!-- SKILLS -->
+<section id="skills">
+
+  <h2>Skills</h2>
+
+  <div class="skills-grid">
+
+    <div class="skill">
+      <i class="devicon-html5-plain colored"></i>
+      <span>HTML5</span>
+    </div>
+
+    <div class="skill">
+      <i class="devicon-css3-plain colored"></i>
+      <span>CSS</span>
+    </div>
+
+    <div class="skill">
+      <i class="devicon-javascript-plain colored"></i>
+      <span>JavaScript</span>
+    </div>
+
+    <div class="skill">
+      <i class="devicon-react-original colored"></i>
+      <span>React</span>
+    </div>
+
+    <div class="skill">
+      <i class="devicon-csharp-plain colored"></i>
+      <span>C#</span>
+    </div>
+
+    <div class="skill">
+      <i class="devicon-microsoftsqlserver-plain colored"></i>
+      <span>SQL</span>
+    </div>
+
+    <div class="skill">
+      <i class="devicon-dot-net-plain colored"></i>
+      <span>ASP.NET</span>
+    </div>
+
+  </div>
+
+</section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project-grid">
+
+        <article class="card gps">
+          <h3>GPS Navigation Website</h3>
+
+          <p>
+            Interactive navigation-style web system designed with a map-inspired interface, smooth routing behavior, and dynamic UI elements.
+          </p>
+
+          <a
+            href="https://harpreetkaur2201.github.io/GPS/"
+            target="_blank"
+            class="project-link"
+          >
+            Live Demo
+          </a>
+        </article>
+
+        <article class="card job">
+          <h3>Fakebook Job Finder</h3>
+
+          <p>
+            Social-style job discovery platform simulating a feed-based interface with structured listings, filtering logic, and responsive design flow.
+          </p>
+
+          <a
+            href="https://harpreetkaur2201.github.io/job-finder/"
+            target="_blank"
+            class="project-link"
+          >
+            Live Demo
+          </a>
+        </article>
+
+         <article class="card coffee">
+          <h3>Java Coffee House</h3>
+
+          <p>
+            Social-style job discovery platform simulating a feed-based interface with structured listings, filtering logic, and responsive design flow.
+          </p>
+
+          <a
+            href="https://harpreetkaur2201.github.io/java-coffeehouse/"
+            target="_blank"
+            class="project-link"
+          >
+            Live Demo
+          </a>
+        </article>
+
+
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <h2>Highlights</h2>
+
+      <div class="project-grid">
+
+        <article class="card">
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>Strong focus on front-end development using HTML, CSS, JavaScript, and React</li>
+            <li>Enjoy building clean, modern, and unique UI designs with attention to detail</li>
+            <li>Actively improving full-stack skills including ASP.NET and SQL integration</li>
+            <li>Goal-driven mindset to build complete end-to-end applications independently</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Problem Solving Skills</h3>
+          <ul>
+            <li>Consistently improving logic building and debugging skills through practice</li>
+            <li>Focused on writing structured, readable, and efficient code</li>
+            <li>Learning to break complex problems into simple development steps</li>
+            <li>Building confidence through real project experience and experimentation</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="dark">
+      <h2>Let's Connect</h2>
+
+      <p>
+        <a href="mailto:hkhosa016@gmail.com" class="contact-link">
+          <i class="fa-solid fa-envelope"></i>
+          hkhosa016@gmail.com
+        </a>
+      </p>
+
+      <p>
+        <a
+          href="https://github.com/harpreetkaur2201"
+          target="_blank"
+          class="contact-link"
+        >
+          <i class="fa-brands fa-github"></i>
+          github.com/harpreetkaur2201
+        </a>
+      </p>
+
+      <p>Open to <strong>Internships </strong>and <strong>Junior Developer</strong> roles.</p>
+
+      <footer class="footer">
+        <p>&copy; 2026 Harpreet Kaur. All rights reserved.</p>
+      </footer>
+
+    </section>
+
+    
+
+  </main>
+<script src="./script.js" defer></script>
 </body>
-</html>
 
-<!-- https://github.com/harpreetkaur2201/My-Portfolio-->
+</html>
